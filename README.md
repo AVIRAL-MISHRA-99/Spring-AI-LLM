@@ -1,4 +1,4 @@
-# Spring AI Tutorial with OpenAI, Anthropic and Ollama
+# Spring AI with OpenAI, Anthropic and Ollama
 
 This repository contains a Spring Boot application that demonstrates the integration of multiple Large Language Models (LLMs) including OpenAI, Anthropic, and Ollama, using the Spring AI library. The project also includes a React-based UI for comparing responses from different models.
 
@@ -35,20 +35,15 @@ SpringAIDemo/
 
 ### Backend Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/navinreddy20/SpringAIwithModels.git
-  
-   ```
 
-2. Configure your API keys in `application.properties` or via environment variables:
+1. Configure your API keys in `application.properties` or via environment variables:
    ```properties
    spring.ai.openai.api-key=your_openai_key
    spring.ai.anthropic.api-key=your_anthropic_key
    # Other configuration properties...
    ```
 
-3. Build the Spring Boot application:
+2. Build the Spring Boot application:
    ```bash
    mvn clean package -DskipTests
    ```
@@ -70,22 +65,9 @@ SpringAIDemo/
    npm run dev
    ```
 
-
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Acknowledgements
 
 - [Spring AI](https://spring.io/projects/spring-ai)
 - [OpenAI API](https://openai.com/blog/openai-api)
 - [Anthropic Claude API](https://www.anthropic.com/product)
 - [Ollama](https://ollama.ai/)
-
-## Contact
-
-For any questions or feedback, please check out:
-- YouTube Channel: [Telusko](https://youtube.com/Telusko)
-- GitHub: [navinreddy20/SpringAIwithModels](https://github.com/navinreddy20/SpringAIwithModels)
